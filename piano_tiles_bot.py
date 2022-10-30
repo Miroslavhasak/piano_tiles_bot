@@ -10,7 +10,7 @@ def click(x,y):
     time.sleep(0.01)                                            #holding down left click for 0.01 sec
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)     #releasing the left click
 
-pyautogui.PAUSE = 0 #faster clicks command
+pyautogui.PAUSE = 0                     #faster clicks command
 
 while not keyboard.is_pressed("q"):     #ak sa stlaci tato klavesa tak to prerusi program
     

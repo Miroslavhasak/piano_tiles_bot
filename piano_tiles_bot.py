@@ -14,7 +14,7 @@ pyautogui.PAUSE = 0 #faster clicks command
 
 while not keyboard.is_pressed("q"):     #ak sa stlaci tato klavesa tak to prerusi program
     
-    if pyautogui.pixel(950, 500)[0] == 0:   # type: ignore #if the cursor is on the 950 and 500 postion(x y) and the color there is black then click there
+    if pyautogui.pixel(950, 500)[0] == 0:   #ignore #if the cursor is on the 950 and 500 postion(x y) and the color there is black then click there
         click(950, 500)
     if pyautogui.pixel(1030, 500)[0] == 0:
         click(1030, 500)
